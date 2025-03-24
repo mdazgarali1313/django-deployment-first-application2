@@ -125,3 +125,5 @@ def homepage(request):
     
     def gitview(req):
         return HttpResponse("<h1>Hello From Git-View</h1><hr />");
+def githubview(req):
+	return HttpResponse("<h2>Hello From Github-view</h2><hr />");
